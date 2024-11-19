@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import { services } from "../../assets/constants";
 function Services() {
   return (
     <section id="services" className="flex justify-stretch items-stretch">
@@ -7,9 +9,11 @@ function Services() {
             our services
           </h2>
           <div className=" w-full max-w-[500px] text-xs md:text-sm text-center  md:text-right">
-            at muiz we specialize at branding at muiz we specialize at
-            brandingat muiz we specialize at brandingat muiz we specialize at
-            brandingat muiz we specialize at brandinga
+            At Fynixs, we specialize in elevating businesses through AI-driven
+            solutions. From branding and design to lead nurturing and customer
+            engagement, we ensure every service is tailored to your unique
+            goals. Let’s transform the way your business connects, grows, and
+            thrives.
           </div>
         </div>
         <div className=" flex items-center gap-5 flex-wrap justify-center md:justify-start py-5 ">
@@ -17,37 +21,28 @@ function Services() {
             design
           </div>
           <div className="  cursor-pointer capitalize hover:glass-btn py-[2px] px-3 border  rounded-full">
-            develop
+            grow
           </div>
-          <div className="  cursor-pointer uppercase hover:glass-btn py-[2px] px-3 border  rounded-full">
-            seo
+          <div className="  cursor-pointer hover:glass-btn py-[2px] px-3 border  rounded-full">
+            automate
           </div>
           <div className="  cursor-pointer capitalize hover:glass-btn py-[2px] px-3 border  rounded-full">
-            digital marketing
+            Ai technologies
           </div>
         </div>
         <div>
-          <div className=" md:h-20 md:px-5  md:items-center flex flex-col md:flex-row w-[97%] mx-auto justify-between  border-[#ffffff1a] md:hover:bg-primary rounded-2xl">
-            <h4 className=" text-5xl font-bold">UI/UX DESIGN</h4>
-            <i className="bx bxs-right-top-arrow-circle text-4xl "></i>
-          </div>
-          <hr className=" w-full border my-5 border-[#ffffff0e]" />
-          <div className=" md:hover:bg-primary md:px-5 rounded-2xl md:h-20 capitalize md:items-center flex flex-col md:flex-row w-[97%] mx-auto justify-between  border-[#ffffff1a]">
-            <h4 className=" text-5xl font-bold">branding</h4>
-            <i className="bx bxs-right-top-arrow-circle text-4xl "></i>
-          </div>
-          <hr className=" w-full border my-5 border-[#ffffff0e]" />
-
-          <div className=" md:hover:bg-primary md:px-5 rounded-2xl md:h-20 capitalize md:items-center flex flex-col md:flex-row w-[97%] mx-auto justify-between  border-[#ffffff1a]">
-            <h4 className=" text-5xl font-bold">app design</h4>
-            <i className="bx bxs-right-top-arrow-circle text-4xl "></i>
-          </div>
-          <hr className=" w-full border my-5 border-[#ffffff0e]" />
-
-          <div className=" md:hover:bg-primary md:px-5 rounded-2xl md:h-20 capitalize md:items-center flex flex-col md:flex-row w-[97%] mx-auto justify-between  border-[#ffffff1a]">
-            <h4 className=" text-5xl font-bold">logo design</h4>
-            <i className="bx bxs-right-top-arrow-circle text-4xl "></i>
-          </div>
+          {services.map((service, index) => (
+            <>
+              <Link to={'/services/' + service.name}
+                key={index}
+                className=" md:hover:bg-primary md:px-5 rounded-2xl md:h-20 capitalize md:items-center flex flex-col md:flex-row w-[97%] mx-auto justify-between  border-[#ffffff1a] cursor-pointer"
+              >
+                <h4 className=" text-5xl font-bold">{service.name}</h4>
+                <i className="bx bxs-right-top-arrow-circle text-4xl "></i>
+              </Link>
+              <hr className=" w-full border my-5 border-[#ffffff0e]" />
+            </>
+          ))}
         </div>
       </div>
     </section>

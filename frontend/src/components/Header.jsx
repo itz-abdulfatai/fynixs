@@ -14,19 +14,22 @@ export const Circle = ({ active }) => {
   );
 };
 
-function Header() {
+function Header({location = 'home'}) {
   // eslint-disable-next-line no-unused-vars
   const [active, setActive] = useState("home");
 
   return (
     <header className=" padding-x py-7 absolute left-0 right-0 flex justify justify-between items-center">
-    <div className=" font-syne font-extrabold  uppercase text-xl">
+    <Link to={'/'} className=" font-syne font-extrabold  uppercase text-xl">
       fynixs
-    </div>
+    </Link>
     {/* pc nav */}
+    {
+      location == 'home' && 
     <Nav/>
+    }
     <a
-      href="#contact"
+      href={`${location == 'home'? '#contact':'/contact'}`}
       className=" uppercase px-3 md:px-5 py-[3px] md:py-[5px] border-2 rounded-full"
     >
       contact now

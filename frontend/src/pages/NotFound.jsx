@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 function NotFound() {
   return (
     <section className=" flex flex-col justify-center items-center gap-3 "> 
-    <h1 className=" text-9xl text-accent2">404</h1>
+    <h1 className=" text-3xl md:text-9xl text-accent2">404</h1>
        <span className="text-xl">
 
 

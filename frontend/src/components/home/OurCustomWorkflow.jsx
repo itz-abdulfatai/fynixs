@@ -14,7 +14,7 @@ function OurCustomWorkflow() {
           index < workflows.length / 2 ? (
             <div
               key={index}
-              className={`items-center  cursor-pointer md:grid grid-cols-5 w-full h-32 py-5 hidden  ${
+              className={`items-center  cursor-pointer md:grid grid-cols-5 w-full min-h-32 py-5 hidden  ${
                 active === flow ? "flow-trans" : 'hover:bg-accent2 hover:bg-opacity-5'
               } `}
               onClick={() => setActive(flow)}
@@ -32,7 +32,7 @@ function OurCustomWorkflow() {
           ) : (
             <div
               key={index}
-              className={`items-center md:grid grid-cols-5 cursor-pointer w-full h-32 py-5 hidden  ${
+              className={`items-center md:grid grid-cols-5 cursor-pointer w-full min-h-32 py-5 hidden  ${
                 active === flow ? "flow-trans" : 'hover:bg-accent2 hover:bg-opacity-5'
               } `}
               onClick={() => setActive(flow)}
