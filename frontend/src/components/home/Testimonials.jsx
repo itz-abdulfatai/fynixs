@@ -4,7 +4,7 @@ import { testimonials } from "../../assets/constants";
 function Testimonials() {
   const [step, setStep] = useState(0);
   return (
-    <section id="reviews" className=" min-h-[70vh]">
+    <section id="reviews" className=" min-h-[75vh] py-10">
       <div className=" flex justify-between gap-4 items-center flex-col md:flex-row">
         <h2 className=" md:text-6xl max-w-[700px] max-md:mx-auto text-2xl max-md:text-center   uppercase font-extrabold ">
           what clients say <span className=" text-grad ">!</span>

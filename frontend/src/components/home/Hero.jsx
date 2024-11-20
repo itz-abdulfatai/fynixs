@@ -3,16 +3,16 @@
 function Hero() {
   return (
       
-      <section id="home" className=" flex flex-col justify-center gap-14 gradient">
+      <section id="home" className=" flex flex-col justify-center gap-10 gradient">
          {/* <span className=" scale-x-[2] transform  inline-block rounded-none mx-10">  o  </span> */}
-     <h1 className=" tracking-wide text-xl md:text-5xl">
+     <h1 className=" tracking-wide text-xl md:text-6xl">
        {" "}
        automate your <br />{" "}
        <span className="inline-flex items-center">
          pr{" "}
          {/* max-sm:hidden  */}
-         <span className="  bg-secondary h-[30px] md:h-[45px] md:w-40 w-24 rounded-lg inline-flex justify-center items-center p-2 md:p-3">
-           <span className=" bg-primary bg-gradient-to-tl md:from-primary md:to-accent2 w-full h-full"></span>
+         <span className="  bg-secondary h-[28px] md:h-[45px] md:w-40 w-24 rounded-lg inline-flex justify-center items-center p-2 md:p-3">
+           <span className=" bg-primary w-full h-full"></span>
          </span>{" "}
          ccesses
        </span>

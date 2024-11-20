@@ -27,7 +27,7 @@ function OurCustomWorkflow() {
                 <span className=" text-base align-top">0{index + 1} </span>{" "}
                 {flow.title}{" "}
               </h3>
-              <div className=" col-span-3">{flow.description}</div>
+              <div className=" col-span-3 text-sm">{flow.description}</div>
             </div>
           ) : (
             <div
@@ -37,7 +37,7 @@ function OurCustomWorkflow() {
               } `}
               onClick={() => setActive(flow)}
             >
-              <div className=" col-span-3">{flow.description}</div>
+              <div className=" col-span-3 text-sm">{flow.description}</div>
               <h3
                 className={` relative text-center text-4xl col-span-2 flex  gap-4 justify-center transition-all duration-100 ease-linear ${
                   active == flow && "text-grad text-[42px]"

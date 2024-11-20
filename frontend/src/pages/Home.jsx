@@ -24,7 +24,7 @@ function Home() {
 
       {/* portfolio */}
 
-      <Portfolio />
+      {/* <Portfolio /> */}
 
       {/* testimonial */}
       <Testimonials/>
