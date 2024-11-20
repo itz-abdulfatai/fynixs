@@ -31,7 +31,7 @@ export const workflows =  [
     {
       name:'Newsletter Building',
       description: [
-        `Imagine being the business your customers trust most—all because you’re always in touch with their needs. What if your business could stay connected with customers in a way they actually look forward to? With FYNIXS, we make it happen. `, 
+        `Imagine being the business your customers trust most—all because you’re always in touch with their needs. What if your business could stay connected with customers in a way they actually look forward to? With fynxs, we make it happen. `, 
         `Our GenAI technology crafts newsletters that feel personal, helpful, and aligned with your audience's goals. Each message is tailored to educate, inspire, and engage—helping you build trust and foster connections that go far beyond the inbox. Whether it’s updates, tips, or exclusive offers, your newsletters will consistently keep your brand top of mind while strengthening loyalty with every send.`,
         `This is more than just communication; it's a way to become a trusted partner in your customers' lives. Let us help you turn every email into an opportunity to grow your business and relationships.`
 
@@ -42,7 +42,7 @@ export const workflows =  [
       description: [
         `Understand your audience like never before. Everyone loves to feel seen and understood, and with AI-powered segmentation, your business will do just that. `,
 `Imagine crafting campaigns that speak directly to your customers—no more guesswork, just results. By analyzing their behaviors, needs, and interactions with your brand, you’ll uncover who they are, what they need, and how to reach them in the most meaningful way.  `,
-`Instead of sending out generic messages, you’ll create personalized experiences that make your customers feel truly valued. With FYNIXS, you’ll not only build stronger connections but also inspire engagement that drives growth and loyalty. It’s time to make your marketing as unique as your customers.`
+`Instead of sending out generic messages, you’ll create personalized experiences that make your customers feel truly valued. With fynxs, you’ll not only build stronger connections but also inspire engagement that drives growth and loyalty. It’s time to make your marketing as unique as your customers.`
       ]
     },
     {

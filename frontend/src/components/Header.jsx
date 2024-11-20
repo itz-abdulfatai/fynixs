@@ -21,7 +21,7 @@ function Header({location = 'home'}) {
   return (
     <header className=" padding-x py-7 absolute left-0 right-0 flex justify justify-between items-center">
     <Link to={'/'} className=" font-syne font-extrabold  uppercase text-xl">
-      fynixs
+      fynxs
     </Link>
     {/* pc nav */}
     {

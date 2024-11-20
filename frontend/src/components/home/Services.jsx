@@ -9,7 +9,7 @@ function Services() {
             our services
           </h2>
           <div className=" w-full max-w-[500px] text-xs md:text-sm text-center  md:text-right">
-            At Fynixs, we specialize in elevating businesses through AI-driven
+            At fynxs, we specialize in elevating businesses through AI-driven
             solutions. From branding and design to lead nurturing and customer
             engagement, we ensure every service is tailored to your unique
             goals. Let’s transform the way your business connects, grows, and

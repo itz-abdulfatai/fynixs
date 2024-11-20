@@ -30,7 +30,7 @@ function Hidden() {
   return (
     <section>
       <h1 className=" text-center text-2xl md:text-5xl my-5 capitalize">
-        fynixs
+        fynxs
       </h1>
 
       {
