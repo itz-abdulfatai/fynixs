@@ -9,11 +9,19 @@
   scroll-behavior: smooth;
 }
 
+
+
 @layer base {
+  .d-outline {
+    -webkit-text-stroke-width: 1px;
+    @apply text-transparent;
+  -webkit-text-stroke-color: white;
+  }
   section {
     max-width: 1440px;
     margin: 0 auto;
-    @apply padding-x  min-h-[90vh] md:min-h-screen;
+    @apply padding-x py-5 md:py-10  min-h-[90vh] md:min-h-screen;
+    
   }
 
   /* h1, h2, h3, h4, h5, h6 {

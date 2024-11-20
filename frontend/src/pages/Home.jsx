@@ -2,10 +2,11 @@ import Hero from "../components/home/Hero";
 import Header from "../components/Header";
 import OurCustomWorkflow from "../components/home/OurCustomWorkflow";
 import Services from "../components/home/Services";
-import Portfolio from "../components/home/Portfolio";
-import Testimonials from "../components/home/Testimonials";
+// import Portfolio from "../components/home/Portfolio";
+// import Testimonials from "../components/home/Testimonials";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import WhatClients from "../components/home/WhatClients";
 
 function Home() {
   return (
@@ -27,7 +28,10 @@ function Home() {
       {/* <Portfolio /> */}
 
       {/* testimonial */}
-      <Testimonials/>
+      {/* <Testimonials/> */}
+
+      {/* what clients will say */}
+      <WhatClients/>
 
       {/* contact */}
       <Contact/>

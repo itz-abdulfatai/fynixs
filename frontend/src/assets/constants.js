@@ -331,15 +331,19 @@ export const testimonials = [
 export const socials = [
   {
     name: 'facebook', 
-    link: 'https://facebook.com',
+    link: 'https://web.facebook.com/profile.php?id=61567109964823',
   },
   {
     name: 'twitter', 
-    link: 'https://x.com',
+    link: 'https://x.com/fynixs_',
   },
   {
     name: 'linkedIn', 
-    link: 'https://linkedin.com',
+    link: 'https://www.linkedin.com/in/fynixs-221615339/',
+  },
+  {
+    name: 'instagram', 
+    link: 'https://www.instagram.com/fynxs00/',
   },
   
 ]

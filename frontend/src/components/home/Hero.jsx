@@ -5,7 +5,7 @@ function Hero() {
       
       <section id="home" className=" flex flex-col justify-center gap-10 gradient">
          {/* <span className=" scale-x-[2] transform  inline-block rounded-none mx-10">  o  </span> */}
-     <h1 className=" tracking-wide text-xl md:text-6xl">
+     <h1 className=" tracking-wide text-xl md:text-4xl lg:text-5xl xl:text-6xl">
        {" "}
        automate your <br />{" "}
        <span className="inline-flex items-center">
