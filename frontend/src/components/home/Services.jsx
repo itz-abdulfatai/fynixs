@@ -37,7 +37,7 @@ function Services() {
                 key={index}
                 className=" md:hover:bg-primary md:px-5 rounded-2xl md:h-20 capitalize md:items-center flex flex-col md:flex-row w-[97%] mx-auto justify-between  border-[#ffffff1a] cursor-pointer"
               >
-                <h4 className=" text-5xl font-bold">{service.name}</h4>
+                <h4 className=" text-3xl md:text-5xl font-bold">{service.name}</h4>
                 <i className="bx bxs-right-top-arrow-circle text-4xl "></i>
               </Link>
               <hr className=" w-full border my-5 border-[#ffffff0e]" />
