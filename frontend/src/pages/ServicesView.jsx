@@ -26,7 +26,7 @@ function ServicesView() {
   return (
     <>
     <Header location="services"/>
-    <section className=" flex flex-col md:flex-row md:justify-between items-center justify-center gap-10 min-h-[83vh] ">
+    <section className=" flex flex-col lg:flex-row md:justify-between pt-24 items-center justify-center gap-10 min-h-[83vh] ">
       <h1 className=" text-2xl md:text-5xl max-w-full">{service.name}  </h1>
       <div className=" flex flex-col justify-center gap-5">
         {
