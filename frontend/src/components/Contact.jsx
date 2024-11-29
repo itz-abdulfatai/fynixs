@@ -66,10 +66,7 @@ function Contact() {
         <div className=" flex flex-col md:flex-row gap-5 md:gap-10">
           <div className="w-full flex flex-col gap-5 md:justify-between">
             <p className=" text-sm max-w-[600px]">
-              Feel free to contact us for any inquiries, collaborations, or
-              project discussions. Our team is here to assist you. You can reach
-              us via phone, email, or by filling out the contact form below. We
-              look forward to hearing from you!
+            Have questions or want to discuss a project? We’re here to help! Whether you want to collaborate, learn more about our services, or just have a chat, feel free to reach out. You can contact us by phone, email, or simply fill out the form below. We’re excited to hear from you and can’t wait to get started!
             </p>
             {/* contact */}
             <div>
