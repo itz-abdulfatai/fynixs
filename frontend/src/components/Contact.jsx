@@ -33,20 +33,33 @@ function Contact() {
     e.preventDefault() 
     setStatus('loading.....')
     try {
-      const response = await axios.post('/api/contacts12f', {
+      const response = await axios.post(import.meta.env.VITE_CONTACT_WEBHOOK, {
         name: formData.name,
         email: formData.email,
         companyName: formData.companyName,
         ...(formData.otherDetails && { otherDetails: formData.otherDetails })
         
-      })
-      // console.log(response.data)
-      setStatus(response.data.msg)
+      },{
+        transformRequest: [(data, headers) => {
+          delete headers['Content-Type']; // Remove Content-Type
+          return JSON.stringify(data);
+        }]})
+      if (response.data.status == 'success') {
+        setStatus(' your message has been recieved we will contact you soon')
+        setFormData({
+          name: '',
+          email: '',
+          companyName: '',
+          otherDetails: ''
+        })
+
+      }
       
     } catch (error) {
       console.error(error.message)
       // console.log(response.data.msg)
       setStatus(error.message)
+
     }
     
   }
